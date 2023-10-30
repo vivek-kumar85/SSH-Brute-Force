@@ -7,7 +7,7 @@ Note: The brute force method is really bad just trys random strings with differe
 ### Single Ip Dictonary Attack
 ```
 python SSHBruteForce.py -i 127.0.0.1 -d True -p 2222 -U ./usernames.txt -P ./passwords.txt
-```ping
+```
 ### Single Ip Dictonary Attack Specifying threads and timeout
 ```
 python SSHBruteForce.py -i 127.0.0.1 -d True -p 2222 -U ./usernames.txt -P ./passwords.txt -t 15 -T 30
@@ -32,27 +32,19 @@ python SSHBruteForce.py -I targets.txt -p 22 -a 100 -l 8
 ```
 127.0.0.1:22
 127.0.0.2:23
-127.0.0.3:24
 ```
 
-* Example of `user.txt`:
+* Example of `usernames.txt`:
 ```
 jimmyj
 derpt
 marth
-admin
-usder
-spaon
-spaion
-huie
 ```
 
-* Example of `pass.txt`:
+* Example of `passwords.txt`:
 ```
 love
-hacker
-Hackerman
-password
 god
+seem
 secret
 ```
