@@ -6,16 +6,16 @@ Note: The brute force method is really bad just trys random strings with differe
 
 ### Single Ip Dictonary Attack
 ```
-python SSHBruteForce.py -i 127.0.0.1 -d True -p 2222 -U ./usernames.txt -P ./passwords.txt
+python SSHBruteForce.py -i 127.0.0.1 -d True -p 8022 -U ./usernames.txt -P ./passwords.txt
 ```
 ### Single Ip Dictonary Attack Specifying threads and timeout
 ```
-python SSHBruteForce.py -i 127.0.0.1 -d True -p 2222 -U ./usernames.txt -P ./passwords.txt -t 15 -T 30
+python SSHBruteForce.py -i 127.0.0.1 -d True -p 8022 -U ./usernames.txt -P ./passwords.txt -t 15 -T 30
 ```
 
 ### Multiple Ip Dictonary Attack
 ```
-python SSHBruteForce.py -I ./targets.txt -d True -p 2222 -U ./usernames.txt -P ./passwords.txt -t 15 -T 30
+python SSHBruteForce.py -I ./targets.txt -d True -p 8022 -U ./usernames.txt -P ./passwords.txt -t 15 -T 30
 ```
 
 ### Single Ip BruteForce Attack
