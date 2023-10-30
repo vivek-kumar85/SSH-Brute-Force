@@ -1,9 +1,3 @@
-'''
-Created on Aug 25, 2011
-
-@author: r4stl1n
-'''
-
 
 def fileContentsToList(fileName):
     lineList = []
